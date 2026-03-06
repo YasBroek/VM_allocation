@@ -1,0 +1,97 @@
+{
+  "vms": [
+    {
+      "ID": "vm1",
+      "profile": "cache",
+      "vCPU": 2,
+      "RAM": 11,
+      "disk": 13,
+      "group": "A"
+    },
+    {
+      "ID": "vm2",
+      "profile": "cache",
+      "vCPU": 2,
+      "RAM": 4,
+      "disk": 7,
+      "group": "B"
+    },
+    {
+      "ID": "vm3",
+      "profile": "web",
+      "vCPU": 1,
+      "RAM": 4,
+      "disk": 17,
+      "group": "B"
+    },
+    {
+      "ID": "vm4",
+      "profile": "web",
+      "vCPU": 1,
+      "RAM": 3,
+      "disk": 27,
+      "group": "C"
+    },
+    {
+      "ID": "vm5",
+      "profile": "db",
+      "vCPU": 3,
+      "RAM": 32,
+      "disk": 159,
+      "group": "A"
+    },
+    {
+      "ID": "vm6",
+      "profile": "compute",
+      "vCPU": 6,
+      "RAM": 15,
+      "disk": 27,
+      "group": "A"
+    },
+    {
+      "ID": "vm7",
+      "profile": "db",
+      "vCPU": 4,
+      "RAM": 16,
+      "disk": 141,
+      "group": "C"
+    },
+    {
+      "ID": "vm8",
+      "profile": "cache",
+      "vCPU": 1,
+      "RAM": 10,
+      "disk": 7,
+      "group": "A"
+    }
+  ],
+  "servers": [
+    {
+      "ID": "small",
+      "s_type": "Small",
+      "vCPU": 8,
+      "RAM": 16,
+      "disk": 200,
+      "qty": 10,
+      "cost": 1.0
+    },
+    {
+      "ID": "medium",
+      "s_type": "Medium",
+      "vCPU": 14,
+      "RAM": 23,
+      "disk": 388,
+      "qty": 6,
+      "cost": 1.5
+    },
+    {
+      "ID": "large",
+      "s_type": "Large",
+      "vCPU": 32,
+      "RAM": 64,
+      "disk": 1000,
+      "qty": 4,
+      "cost": 2.0
+    }
+  ]
+}
