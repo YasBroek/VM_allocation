@@ -2,963 +2,963 @@
   "vms": [
     {
       "ID": "vm1",
-      "profile": "web",
-      "vCPU": 3,
-      "RAM": 7,
-      "disk": 19,
-      "group": "B"
-    },
-    {
-      "ID": "vm2",
-      "profile": "cache",
-      "vCPU": 1,
-      "RAM": 11,
-      "disk": 20,
-      "group": "C"
-    },
-    {
-      "ID": "vm3",
-      "profile": "web",
-      "vCPU": 4,
-      "RAM": 6,
-      "disk": 33,
-      "group": "C"
-    },
-    {
-      "ID": "vm4",
-      "profile": "compute",
-      "vCPU": 10,
-      "RAM": 6,
-      "disk": 27,
+      "profile": "db",
+      "vCPU": 6,
+      "RAM": 19,
+      "disk": 169,
       "group": "A"
     },
     {
-      "ID": "vm5",
-      "profile": "web",
+      "ID": "vm2",
+      "profile": "db",
+      "vCPU": 6,
+      "RAM": 15,
+      "disk": 123,
+      "group": "B"
+    },
+    {
+      "ID": "vm3",
+      "profile": "db",
       "vCPU": 4,
-      "RAM": 3,
-      "disk": 16,
+      "RAM": 22,
+      "disk": 68,
+      "group": "B"
+    },
+    {
+      "ID": "vm4",
+      "profile": "db",
+      "vCPU": 3,
+      "RAM": 10,
+      "disk": 163,
+      "group": "C"
+    },
+    {
+      "ID": "vm5",
+      "profile": "cache",
+      "vCPU": 1,
+      "RAM": 11,
+      "disk": 15,
       "group": "A"
     },
     {
       "ID": "vm6",
       "profile": "compute",
-      "vCPU": 6,
-      "RAM": 16,
-      "disk": 69,
-      "group": "C"
-    },
-    {
-      "ID": "vm7",
-      "profile": "cache",
-      "vCPU": 1,
-      "RAM": 10,
-      "disk": 7,
-      "group": "A"
-    },
-    {
-      "ID": "vm8",
-      "profile": "web",
-      "vCPU": 2,
-      "RAM": 2,
-      "disk": 20,
+      "vCPU": 10,
+      "RAM": 7,
+      "disk": 28,
       "group": "B"
     },
     {
-      "ID": "vm9",
-      "profile": "cache",
-      "vCPU": 1,
-      "RAM": 12,
-      "disk": 8,
+      "ID": "vm7",
+      "profile": "compute",
+      "vCPU": 8,
+      "RAM": 7,
+      "disk": 34,
       "group": "C"
     },
     {
+      "ID": "vm8",
+      "profile": "cache",
+      "vCPU": 2,
+      "RAM": 10,
+      "disk": 17,
+      "group": "A"
+    },
+    {
+      "ID": "vm9",
+      "profile": "compute",
+      "vCPU": 5,
+      "RAM": 10,
+      "disk": 73,
+      "group": "A"
+    },
+    {
       "ID": "vm10",
-      "profile": "web",
-      "vCPU": 1,
-      "RAM": 8,
-      "disk": 49,
+      "profile": "compute",
+      "vCPU": 7,
+      "RAM": 12,
+      "disk": 32,
       "group": "B"
     },
     {
       "ID": "vm11",
-      "profile": "cache",
-      "vCPU": 2,
-      "RAM": 12,
-      "disk": 19,
+      "profile": "web",
+      "vCPU": 3,
+      "RAM": 7,
+      "disk": 33,
       "group": "A"
     },
     {
       "ID": "vm12",
-      "profile": "db",
-      "vCPU": 8,
-      "RAM": 10,
-      "disk": 131,
+      "profile": "cache",
+      "vCPU": 1,
+      "RAM": 4,
+      "disk": 18,
       "group": "A"
     },
     {
       "ID": "vm13",
       "profile": "cache",
-      "vCPU": 2,
-      "RAM": 15,
-      "disk": 10,
-      "group": "C"
+      "vCPU": 1,
+      "RAM": 16,
+      "disk": 9,
+      "group": "B"
     },
     {
       "ID": "vm14",
-      "profile": "web",
-      "vCPU": 1,
-      "RAM": 4,
-      "disk": 41,
+      "profile": "cache",
+      "vCPU": 2,
+      "RAM": 6,
+      "disk": 20,
       "group": "C"
     },
     {
       "ID": "vm15",
       "profile": "cache",
-      "vCPU": 2,
-      "RAM": 4,
-      "disk": 20,
-      "group": "B"
+      "vCPU": 1,
+      "RAM": 15,
+      "disk": 5,
+      "group": "A"
     },
     {
       "ID": "vm16",
       "profile": "web",
-      "vCPU": 3,
-      "RAM": 3,
-      "disk": 15,
+      "vCPU": 1,
+      "RAM": 6,
+      "disk": 32,
       "group": "C"
     },
     {
       "ID": "vm17",
-      "profile": "db",
-      "vCPU": 6,
-      "RAM": 17,
-      "disk": 77,
+      "profile": "compute",
+      "vCPU": 5,
+      "RAM": 14,
+      "disk": 98,
       "group": "C"
     },
     {
       "ID": "vm18",
       "profile": "compute",
-      "vCPU": 11,
-      "RAM": 13,
-      "disk": 24,
-      "group": "A"
+      "vCPU": 16,
+      "RAM": 14,
+      "disk": 37,
+      "group": "C"
     },
     {
       "ID": "vm19",
-      "profile": "web",
-      "vCPU": 1,
-      "RAM": 8,
-      "disk": 17,
-      "group": "A"
+      "profile": "db",
+      "vCPU": 8,
+      "RAM": 14,
+      "disk": 190,
+      "group": "B"
     },
     {
       "ID": "vm20",
-      "profile": "web",
-      "vCPU": 3,
-      "RAM": 2,
-      "disk": 44,
+      "profile": "db",
+      "vCPU": 2,
+      "RAM": 12,
+      "disk": 129,
       "group": "B"
     },
     {
       "ID": "vm21",
-      "profile": "cache",
-      "vCPU": 2,
-      "RAM": 9,
-      "disk": 17,
-      "group": "A"
-    },
-    {
-      "ID": "vm22",
-      "profile": "web",
-      "vCPU": 1,
-      "RAM": 7,
-      "disk": 23,
+      "profile": "compute",
+      "vCPU": 5,
+      "RAM": 4,
+      "disk": 90,
       "group": "C"
     },
     {
+      "ID": "vm22",
+      "profile": "cache",
+      "vCPU": 2,
+      "RAM": 4,
+      "disk": 11,
+      "group": "B"
+    },
+    {
       "ID": "vm23",
-      "profile": "compute",
-      "vCPU": 7,
-      "RAM": 14,
-      "disk": 93,
+      "profile": "cache",
+      "vCPU": 1,
+      "RAM": 8,
+      "disk": 9,
       "group": "B"
     },
     {
       "ID": "vm24",
-      "profile": "cache",
-      "vCPU": 2,
-      "RAM": 16,
-      "disk": 15,
-      "group": "B"
+      "profile": "compute",
+      "vCPU": 7,
+      "RAM": 10,
+      "disk": 34,
+      "group": "C"
     },
     {
       "ID": "vm25",
       "profile": "cache",
       "vCPU": 1,
-      "RAM": 6,
-      "disk": 10,
-      "group": "A"
+      "RAM": 5,
+      "disk": 13,
+      "group": "C"
     },
     {
       "ID": "vm26",
-      "profile": "web",
+      "profile": "db",
       "vCPU": 2,
-      "RAM": 4,
-      "disk": 24,
-      "group": "B"
+      "RAM": 8,
+      "disk": 151,
+      "group": "C"
     },
     {
       "ID": "vm27",
-      "profile": "db",
-      "vCPU": 8,
-      "RAM": 14,
-      "disk": 148,
+      "profile": "compute",
+      "vCPU": 14,
+      "RAM": 13,
+      "disk": 25,
       "group": "B"
     },
     {
       "ID": "vm28",
       "profile": "db",
-      "vCPU": 2,
-      "RAM": 22,
-      "disk": 178,
-      "group": "A"
-    },
-    {
-      "ID": "vm29",
-      "profile": "web",
-      "vCPU": 1,
-      "RAM": 2,
-      "disk": 44,
+      "vCPU": 8,
+      "RAM": 16,
+      "disk": 170,
       "group": "C"
     },
     {
+      "ID": "vm29",
+      "profile": "db",
+      "vCPU": 6,
+      "RAM": 26,
+      "disk": 187,
+      "group": "B"
+    },
+    {
       "ID": "vm30",
-      "profile": "web",
-      "vCPU": 3,
-      "RAM": 4,
-      "disk": 24,
-      "group": "A"
+      "profile": "cache",
+      "vCPU": 1,
+      "RAM": 6,
+      "disk": 14,
+      "group": "B"
     },
     {
       "ID": "vm31",
-      "profile": "compute",
-      "vCPU": 16,
+      "profile": "cache",
+      "vCPU": 2,
       "RAM": 10,
-      "disk": 39,
-      "group": "A"
+      "disk": 6,
+      "group": "C"
     },
     {
       "ID": "vm32",
-      "profile": "web",
-      "vCPU": 1,
-      "RAM": 7,
-      "disk": 24,
+      "profile": "db",
+      "vCPU": 6,
+      "RAM": 10,
+      "disk": 105,
       "group": "A"
     },
     {
       "ID": "vm33",
-      "profile": "compute",
-      "vCPU": 7,
-      "RAM": 10,
-      "disk": 74,
-      "group": "A"
-    },
-    {
-      "ID": "vm34",
       "profile": "web",
       "vCPU": 2,
-      "RAM": 5,
+      "RAM": 4,
       "disk": 17,
       "group": "B"
     },
     {
+      "ID": "vm34",
+      "profile": "web",
+      "vCPU": 4,
+      "RAM": 8,
+      "disk": 22,
+      "group": "C"
+    },
+    {
       "ID": "vm35",
       "profile": "cache",
-      "vCPU": 2,
-      "RAM": 12,
-      "disk": 9,
+      "vCPU": 1,
+      "RAM": 6,
+      "disk": 19,
       "group": "C"
     },
     {
       "ID": "vm36",
-      "profile": "db",
-      "vCPU": 7,
-      "RAM": 15,
-      "disk": 101,
-      "group": "A"
+      "profile": "cache",
+      "vCPU": 2,
+      "RAM": 14,
+      "disk": 14,
+      "group": "C"
     },
     {
       "ID": "vm37",
-      "profile": "web",
+      "profile": "cache",
       "vCPU": 1,
-      "RAM": 4,
-      "disk": 40,
-      "group": "C"
+      "RAM": 10,
+      "disk": 11,
+      "group": "B"
     },
     {
       "ID": "vm38",
       "profile": "cache",
       "vCPU": 1,
-      "RAM": 11,
-      "disk": 15,
-      "group": "A"
+      "RAM": 7,
+      "disk": 6,
+      "group": "C"
     },
     {
       "ID": "vm39",
       "profile": "cache",
-      "vCPU": 1,
-      "RAM": 4,
-      "disk": 11,
+      "vCPU": 2,
+      "RAM": 11,
+      "disk": 6,
       "group": "B"
     },
     {
       "ID": "vm40",
       "profile": "db",
-      "vCPU": 4,
-      "RAM": 26,
-      "disk": 163,
-      "group": "B"
-    },
-    {
-      "ID": "vm41",
-      "profile": "compute",
-      "vCPU": 11,
-      "RAM": 8,
-      "disk": 90,
-      "group": "B"
-    },
-    {
-      "ID": "vm42",
-      "profile": "compute",
-      "vCPU": 15,
-      "RAM": 10,
-      "disk": 86,
+      "vCPU": 2,
+      "RAM": 32,
+      "disk": 169,
       "group": "C"
     },
     {
-      "ID": "vm43",
+      "ID": "vm41",
       "profile": "web",
-      "vCPU": 2,
-      "RAM": 6,
-      "disk": 50,
+      "vCPU": 1,
+      "RAM": 5,
+      "disk": 38,
+      "group": "C"
+    },
+    {
+      "ID": "vm42",
+      "profile": "cache",
+      "vCPU": 1,
+      "RAM": 11,
+      "disk": 6,
+      "group": "A"
+    },
+    {
+      "ID": "vm43",
+      "profile": "cache",
+      "vCPU": 1,
+      "RAM": 15,
+      "disk": 7,
       "group": "C"
     },
     {
       "ID": "vm44",
-      "profile": "db",
-      "vCPU": 6,
-      "RAM": 31,
-      "disk": 56,
-      "group": "C"
+      "profile": "compute",
+      "vCPU": 9,
+      "RAM": 12,
+      "disk": 29,
+      "group": "A"
     },
     {
       "ID": "vm45",
-      "profile": "web",
-      "vCPU": 1,
-      "RAM": 8,
-      "disk": 24,
-      "group": "A"
+      "profile": "compute",
+      "vCPU": 15,
+      "RAM": 10,
+      "disk": 33,
+      "group": "B"
     },
     {
       "ID": "vm46",
-      "profile": "db",
-      "vCPU": 6,
-      "RAM": 31,
-      "disk": 182,
-      "group": "A"
+      "profile": "web",
+      "vCPU": 2,
+      "RAM": 4,
+      "disk": 23,
+      "group": "C"
     },
     {
       "ID": "vm47",
-      "profile": "cache",
-      "vCPU": 1,
-      "RAM": 11,
-      "disk": 19,
-      "group": "B"
+      "profile": "web",
+      "vCPU": 2,
+      "RAM": 7,
+      "disk": 22,
+      "group": "C"
     },
     {
       "ID": "vm48",
-      "profile": "cache",
-      "vCPU": 1,
-      "RAM": 9,
-      "disk": 19,
-      "group": "B"
+      "profile": "db",
+      "vCPU": 3,
+      "RAM": 31,
+      "disk": 200,
+      "group": "C"
     },
     {
       "ID": "vm49",
-      "profile": "cache",
-      "vCPU": 2,
-      "RAM": 6,
-      "disk": 8,
-      "group": "B"
+      "profile": "db",
+      "vCPU": 5,
+      "RAM": 12,
+      "disk": 59,
+      "group": "A"
     },
     {
       "ID": "vm50",
-      "profile": "cache",
+      "profile": "db",
       "vCPU": 2,
-      "RAM": 9,
-      "disk": 8,
-      "group": "B"
+      "RAM": 26,
+      "disk": 185,
+      "group": "A"
     },
     {
       "ID": "vm51",
-      "profile": "compute",
-      "vCPU": 9,
-      "RAM": 8,
-      "disk": 46,
+      "profile": "cache",
+      "vCPU": 1,
+      "RAM": 13,
+      "disk": 20,
       "group": "A"
     },
     {
       "ID": "vm52",
-      "profile": "compute",
-      "vCPU": 6,
-      "RAM": 9,
-      "disk": 58,
-      "group": "B"
+      "profile": "web",
+      "vCPU": 1,
+      "RAM": 2,
+      "disk": 38,
+      "group": "C"
     },
     {
       "ID": "vm53",
-      "profile": "db",
-      "vCPU": 8,
-      "RAM": 26,
-      "disk": 125,
+      "profile": "web",
+      "vCPU": 3,
+      "RAM": 5,
+      "disk": 18,
       "group": "C"
     },
     {
       "ID": "vm54",
       "profile": "web",
-      "vCPU": 2,
+      "vCPU": 1,
       "RAM": 4,
-      "disk": 18,
+      "disk": 43,
       "group": "A"
     },
     {
       "ID": "vm55",
-      "profile": "db",
+      "profile": "web",
       "vCPU": 3,
-      "RAM": 13,
-      "disk": 200,
-      "group": "C"
+      "RAM": 4,
+      "disk": 25,
+      "group": "A"
     },
     {
       "ID": "vm56",
-      "profile": "db",
-      "vCPU": 4,
-      "RAM": 23,
-      "disk": 149,
-      "group": "C"
+      "profile": "compute",
+      "vCPU": 14,
+      "RAM": 12,
+      "disk": 68,
+      "group": "A"
     },
     {
       "ID": "vm57",
-      "profile": "db",
-      "vCPU": 4,
-      "RAM": 11,
-      "disk": 181,
+      "profile": "cache",
+      "vCPU": 1,
+      "RAM": 7,
+      "disk": 14,
       "group": "B"
     },
     {
       "ID": "vm58",
       "profile": "db",
-      "vCPU": 2,
-      "RAM": 21,
-      "disk": 128,
-      "group": "C"
+      "vCPU": 5,
+      "RAM": 15,
+      "disk": 101,
+      "group": "B"
     },
     {
       "ID": "vm59",
-      "profile": "cache",
-      "vCPU": 1,
-      "RAM": 6,
-      "disk": 17,
-      "group": "A"
+      "profile": "db",
+      "vCPU": 6,
+      "RAM": 13,
+      "disk": 176,
+      "group": "B"
     },
     {
       "ID": "vm60",
       "profile": "compute",
-      "vCPU": 13,
-      "RAM": 11,
-      "disk": 100,
-      "group": "B"
-    },
-    {
-      "ID": "vm61",
-      "profile": "compute",
-      "vCPU": 12,
-      "RAM": 14,
-      "disk": 33,
+      "vCPU": 7,
+      "RAM": 8,
+      "disk": 23,
       "group": "A"
     },
     {
+      "ID": "vm61",
+      "profile": "cache",
+      "vCPU": 1,
+      "RAM": 7,
+      "disk": 14,
+      "group": "C"
+    },
+    {
       "ID": "vm62",
-      "profile": "compute",
-      "vCPU": 11,
-      "RAM": 5,
-      "disk": 56,
+      "profile": "cache",
+      "vCPU": 1,
+      "RAM": 16,
+      "disk": 17,
       "group": "A"
     },
     {
       "ID": "vm63",
-      "profile": "db",
-      "vCPU": 5,
-      "RAM": 30,
-      "disk": 72,
+      "profile": "cache",
+      "vCPU": 2,
+      "RAM": 16,
+      "disk": 19,
       "group": "C"
     },
     {
       "ID": "vm64",
-      "profile": "compute",
-      "vCPU": 11,
-      "RAM": 6,
-      "disk": 43,
-      "group": "B"
+      "profile": "cache",
+      "vCPU": 1,
+      "RAM": 11,
+      "disk": 14,
+      "group": "A"
     },
     {
       "ID": "vm65",
-      "profile": "web",
-      "vCPU": 1,
-      "RAM": 4,
-      "disk": 31,
-      "group": "A"
+      "profile": "db",
+      "vCPU": 7,
+      "RAM": 8,
+      "disk": 145,
+      "group": "B"
     },
     {
       "ID": "vm66",
       "profile": "web",
-      "vCPU": 3,
-      "RAM": 3,
-      "disk": 11,
-      "group": "C"
+      "vCPU": 4,
+      "RAM": 2,
+      "disk": 32,
+      "group": "A"
     },
     {
       "ID": "vm67",
-      "profile": "cache",
-      "vCPU": 1,
-      "RAM": 9,
-      "disk": 8,
+      "profile": "db",
+      "vCPU": 2,
+      "RAM": 20,
+      "disk": 82,
       "group": "B"
     },
     {
       "ID": "vm68",
       "profile": "compute",
-      "vCPU": 4,
-      "RAM": 4,
-      "disk": 30,
-      "group": "A"
-    },
-    {
-      "ID": "vm69",
-      "profile": "web",
-      "vCPU": 2,
-      "RAM": 6,
-      "disk": 23,
-      "group": "A"
-    },
-    {
-      "ID": "vm70",
-      "profile": "web",
-      "vCPU": 4,
-      "RAM": 2,
-      "disk": 17,
-      "group": "A"
-    },
-    {
-      "ID": "vm71",
-      "profile": "cache",
-      "vCPU": 1,
-      "RAM": 5,
-      "disk": 12,
+      "vCPU": 5,
+      "RAM": 15,
+      "disk": 43,
       "group": "B"
     },
     {
-      "ID": "vm72",
+      "ID": "vm69",
+      "profile": "compute",
+      "vCPU": 8,
+      "RAM": 9,
+      "disk": 47,
+      "group": "C"
+    },
+    {
+      "ID": "vm70",
       "profile": "cache",
       "vCPU": 2,
-      "RAM": 13,
+      "RAM": 6,
       "disk": 10,
-      "group": "A"
+      "group": "C"
+    },
+    {
+      "ID": "vm71",
+      "profile": "compute",
+      "vCPU": 8,
+      "RAM": 7,
+      "disk": 73,
+      "group": "C"
+    },
+    {
+      "ID": "vm72",
+      "profile": "web",
+      "vCPU": 1,
+      "RAM": 6,
+      "disk": 16,
+      "group": "C"
     },
     {
       "ID": "vm73",
-      "profile": "cache",
-      "vCPU": 2,
-      "RAM": 16,
-      "disk": 18,
+      "profile": "web",
+      "vCPU": 4,
+      "RAM": 4,
+      "disk": 39,
       "group": "C"
     },
     {
       "ID": "vm74",
-      "profile": "compute",
-      "vCPU": 14,
-      "RAM": 9,
-      "disk": 78,
+      "profile": "cache",
+      "vCPU": 2,
+      "RAM": 6,
+      "disk": 16,
       "group": "B"
     },
     {
       "ID": "vm75",
       "profile": "db",
-      "vCPU": 5,
-      "RAM": 21,
-      "disk": 174,
-      "group": "A"
+      "vCPU": 8,
+      "RAM": 12,
+      "disk": 163,
+      "group": "C"
     },
     {
       "ID": "vm76",
-      "profile": "db",
-      "vCPU": 5,
-      "RAM": 9,
-      "disk": 198,
-      "group": "A"
+      "profile": "web",
+      "vCPU": 4,
+      "RAM": 2,
+      "disk": 49,
+      "group": "B"
     },
     {
       "ID": "vm77",
       "profile": "web",
       "vCPU": 1,
-      "RAM": 5,
-      "disk": 14,
+      "RAM": 7,
+      "disk": 39,
       "group": "B"
     },
     {
       "ID": "vm78",
-      "profile": "web",
-      "vCPU": 1,
-      "RAM": 2,
-      "disk": 50,
-      "group": "B"
+      "profile": "cache",
+      "vCPU": 2,
+      "RAM": 6,
+      "disk": 7,
+      "group": "C"
     },
     {
       "ID": "vm79",
-      "profile": "compute",
-      "vCPU": 7,
-      "RAM": 11,
-      "disk": 21,
-      "group": "A"
+      "profile": "db",
+      "vCPU": 8,
+      "RAM": 32,
+      "disk": 187,
+      "group": "C"
     },
     {
       "ID": "vm80",
-      "profile": "cache",
-      "vCPU": 2,
-      "RAM": 5,
-      "disk": 17,
-      "group": "A"
+      "profile": "compute",
+      "vCPU": 15,
+      "RAM": 10,
+      "disk": 42,
+      "group": "C"
     },
     {
       "ID": "vm81",
-      "profile": "db",
-      "vCPU": 2,
-      "RAM": 24,
-      "disk": 68,
-      "group": "C"
+      "profile": "web",
+      "vCPU": 3,
+      "RAM": 7,
+      "disk": 47,
+      "group": "A"
     },
     {
       "ID": "vm82",
       "profile": "web",
-      "vCPU": 4,
-      "RAM": 2,
-      "disk": 14,
-      "group": "A"
+      "vCPU": 2,
+      "RAM": 4,
+      "disk": 20,
+      "group": "C"
     },
     {
       "ID": "vm83",
-      "profile": "web",
-      "vCPU": 4,
-      "RAM": 8,
-      "disk": 42,
-      "group": "A"
+      "profile": "db",
+      "vCPU": 6,
+      "RAM": 31,
+      "disk": 123,
+      "group": "C"
     },
     {
       "ID": "vm84",
-      "profile": "cache",
-      "vCPU": 2,
-      "RAM": 9,
-      "disk": 14,
-      "group": "C"
+      "profile": "db",
+      "vCPU": 6,
+      "RAM": 26,
+      "disk": 72,
+      "group": "A"
     },
     {
       "ID": "vm85",
-      "profile": "compute",
-      "vCPU": 12,
-      "RAM": 4,
-      "disk": 76,
-      "group": "C"
+      "profile": "db",
+      "vCPU": 2,
+      "RAM": 25,
+      "disk": 98,
+      "group": "B"
     },
     {
       "ID": "vm86",
       "profile": "web",
-      "vCPU": 1,
-      "RAM": 6,
-      "disk": 10,
-      "group": "A"
+      "vCPU": 2,
+      "RAM": 5,
+      "disk": 41,
+      "group": "B"
     },
     {
       "ID": "vm87",
-      "profile": "web",
-      "vCPU": 4,
-      "RAM": 4,
-      "disk": 26,
-      "group": "C"
+      "profile": "db",
+      "vCPU": 3,
+      "RAM": 13,
+      "disk": 90,
+      "group": "B"
     },
     {
       "ID": "vm88",
-      "profile": "cache",
-      "vCPU": 1,
-      "RAM": 9,
-      "disk": 19,
-      "group": "B"
+      "profile": "compute",
+      "vCPU": 11,
+      "RAM": 16,
+      "disk": 27,
+      "group": "A"
     },
     {
       "ID": "vm89",
-      "profile": "web",
+      "profile": "cache",
       "vCPU": 1,
-      "RAM": 7,
-      "disk": 35,
-      "group": "B"
+      "RAM": 13,
+      "disk": 13,
+      "group": "A"
     },
     {
       "ID": "vm90",
-      "profile": "cache",
-      "vCPU": 2,
-      "RAM": 5,
-      "disk": 16,
+      "profile": "web",
+      "vCPU": 1,
+      "RAM": 4,
+      "disk": 12,
       "group": "A"
     },
     {
       "ID": "vm91",
-      "profile": "db",
-      "vCPU": 6,
-      "RAM": 11,
-      "disk": 156,
-      "group": "B"
+      "profile": "cache",
+      "vCPU": 1,
+      "RAM": 14,
+      "disk": 10,
+      "group": "C"
     },
     {
       "ID": "vm92",
-      "profile": "cache",
-      "vCPU": 2,
-      "RAM": 8,
-      "disk": 8,
+      "profile": "compute",
+      "vCPU": 7,
+      "RAM": 14,
+      "disk": 45,
       "group": "B"
     },
     {
       "ID": "vm93",
-      "profile": "cache",
-      "vCPU": 1,
-      "RAM": 5,
-      "disk": 19,
+      "profile": "db",
+      "vCPU": 8,
+      "RAM": 26,
+      "disk": 135,
       "group": "B"
     },
     {
       "ID": "vm94",
       "profile": "compute",
-      "vCPU": 11,
-      "RAM": 6,
-      "disk": 48,
-      "group": "C"
+      "vCPU": 9,
+      "RAM": 7,
+      "disk": 93,
+      "group": "B"
     },
     {
       "ID": "vm95",
       "profile": "cache",
       "vCPU": 2,
-      "RAM": 11,
+      "RAM": 12,
       "disk": 18,
       "group": "A"
     },
     {
       "ID": "vm96",
-      "profile": "cache",
-      "vCPU": 2,
+      "profile": "db",
+      "vCPU": 7,
       "RAM": 8,
-      "disk": 8,
-      "group": "C"
+      "disk": 146,
+      "group": "A"
     },
     {
       "ID": "vm97",
       "profile": "compute",
       "vCPU": 16,
-      "RAM": 12,
-      "disk": 81,
-      "group": "C"
+      "RAM": 6,
+      "disk": 52,
+      "group": "A"
     },
     {
       "ID": "vm98",
-      "profile": "cache",
-      "vCPU": 2,
-      "RAM": 16,
-      "disk": 17,
+      "profile": "compute",
+      "vCPU": 11,
+      "RAM": 13,
+      "disk": 46,
       "group": "A"
     },
     {
       "ID": "vm99",
       "profile": "web",
       "vCPU": 1,
-      "RAM": 3,
-      "disk": 28,
+      "RAM": 5,
+      "disk": 35,
       "group": "A"
     },
     {
       "ID": "vm100",
       "profile": "cache",
-      "vCPU": 2,
-      "RAM": 6,
-      "disk": 19,
-      "group": "B"
-    },
-    {
-      "ID": "vm101",
-      "profile": "web",
-      "vCPU": 3,
-      "RAM": 7,
-      "disk": 25,
+      "vCPU": 1,
+      "RAM": 13,
+      "disk": 9,
       "group": "C"
     },
     {
+      "ID": "vm101",
+      "profile": "compute",
+      "vCPU": 4,
+      "RAM": 15,
+      "disk": 98,
+      "group": "B"
+    },
+    {
       "ID": "vm102",
-      "profile": "cache",
+      "profile": "web",
       "vCPU": 2,
-      "RAM": 13,
-      "disk": 5,
+      "RAM": 3,
+      "disk": 45,
       "group": "C"
     },
     {
       "ID": "vm103",
-      "profile": "db",
-      "vCPU": 2,
-      "RAM": 17,
-      "disk": 83,
-      "group": "A"
+      "profile": "cache",
+      "vCPU": 1,
+      "RAM": 6,
+      "disk": 6,
+      "group": "B"
     },
     {
       "ID": "vm104",
-      "profile": "compute",
-      "vCPU": 15,
-      "RAM": 9,
-      "disk": 52,
-      "group": "A"
+      "profile": "cache",
+      "vCPU": 1,
+      "RAM": 16,
+      "disk": 20,
+      "group": "C"
     },
     {
       "ID": "vm105",
       "profile": "db",
-      "vCPU": 2,
-      "RAM": 29,
-      "disk": 73,
-      "group": "B"
+      "vCPU": 3,
+      "RAM": 19,
+      "disk": 94,
+      "group": "A"
     },
     {
       "ID": "vm106",
-      "profile": "cache",
-      "vCPU": 1,
-      "RAM": 13,
-      "disk": 19,
-      "group": "C"
-    },
-    {
-      "ID": "vm107",
-      "profile": "web",
-      "vCPU": 2,
-      "RAM": 2,
-      "disk": 34,
+      "profile": "compute",
+      "vCPU": 11,
+      "RAM": 16,
+      "disk": 50,
       "group": "B"
     },
     {
+      "ID": "vm107",
+      "profile": "compute",
+      "vCPU": 9,
+      "RAM": 5,
+      "disk": 73,
+      "group": "C"
+    },
+    {
       "ID": "vm108",
-      "profile": "db",
-      "vCPU": 6,
-      "RAM": 28,
-      "disk": 142,
-      "group": "A"
+      "profile": "compute",
+      "vCPU": 9,
+      "RAM": 15,
+      "disk": 24,
+      "group": "C"
     },
     {
       "ID": "vm109",
       "profile": "cache",
       "vCPU": 2,
-      "RAM": 14,
-      "disk": 16,
-      "group": "A"
+      "RAM": 4,
+      "disk": 7,
+      "group": "B"
     },
     {
       "ID": "vm110",
-      "profile": "compute",
-      "vCPU": 13,
+      "profile": "cache",
+      "vCPU": 2,
       "RAM": 5,
-      "disk": 34,
+      "disk": 6,
       "group": "A"
     },
     {
       "ID": "vm111",
-      "profile": "db",
-      "vCPU": 5,
-      "RAM": 21,
-      "disk": 122,
+      "profile": "compute",
+      "vCPU": 10,
+      "RAM": 8,
+      "disk": 48,
       "group": "B"
     },
     {
       "ID": "vm112",
-      "profile": "cache",
-      "vCPU": 1,
-      "RAM": 10,
-      "disk": 9,
-      "group": "C"
+      "profile": "db",
+      "vCPU": 3,
+      "RAM": 25,
+      "disk": 101,
+      "group": "A"
     },
     {
       "ID": "vm113",
-      "profile": "compute",
-      "vCPU": 13,
-      "RAM": 15,
-      "disk": 95,
+      "profile": "cache",
+      "vCPU": 2,
+      "RAM": 16,
+      "disk": 8,
       "group": "C"
     },
     {
       "ID": "vm114",
-      "profile": "cache",
-      "vCPU": 2,
-      "RAM": 15,
-      "disk": 5,
+      "profile": "db",
+      "vCPU": 4,
+      "RAM": 30,
+      "disk": 57,
       "group": "A"
     },
     {
       "ID": "vm115",
-      "profile": "db",
-      "vCPU": 3,
-      "RAM": 28,
-      "disk": 136,
-      "group": "A"
+      "profile": "compute",
+      "vCPU": 14,
+      "RAM": 9,
+      "disk": 96,
+      "group": "B"
     },
     {
       "ID": "vm116",
-      "profile": "compute",
-      "vCPU": 15,
-      "RAM": 14,
-      "disk": 21,
+      "profile": "cache",
+      "vCPU": 2,
+      "RAM": 15,
+      "disk": 9,
       "group": "B"
     },
     {
       "ID": "vm117",
-      "profile": "cache",
-      "vCPU": 2,
-      "RAM": 12,
-      "disk": 10,
-      "group": "A"
+      "profile": "db",
+      "vCPU": 5,
+      "RAM": 9,
+      "disk": 56,
+      "group": "B"
     },
     {
       "ID": "vm118",
-      "profile": "db",
-      "vCPU": 5,
-      "RAM": 25,
-      "disk": 200,
-      "group": "C"
+      "profile": "cache",
+      "vCPU": 1,
+      "RAM": 7,
+      "disk": 15,
+      "group": "A"
     },
     {
       "ID": "vm119",
-      "profile": "compute",
-      "vCPU": 9,
-      "RAM": 7,
-      "disk": 100,
-      "group": "A"
+      "profile": "web",
+      "vCPU": 3,
+      "RAM": 2,
+      "disk": 29,
+      "group": "C"
     },
     {
       "ID": "vm120",
       "profile": "cache",
       "vCPU": 1,
-      "RAM": 11,
-      "disk": 7,
-      "group": "B"
+      "RAM": 9,
+      "disk": 5,
+      "group": "C"
     }
   ],
   "servers": [
@@ -966,28 +966,28 @@
       "ID": "small",
       "s_type": "Small",
       "vCPU": 7,
-      "RAM": 13,
-      "disk": 180,
-      "qty": 10,
-      "cost": 1.0
+      "RAM": 14,
+      "disk": 191,
+      "cost": 1.0,
+      "qty": 170
     },
     {
       "ID": "medium",
       "s_type": "Medium",
-      "vCPU": 15,
-      "RAM": 22,
-      "disk": 468,
-      "qty": 6,
-      "cost": 1.5
+      "vCPU": 16,
+      "RAM": 32,
+      "disk": 500,
+      "cost": 1.5,
+      "qty": 85
     },
     {
       "ID": "large",
       "s_type": "Large",
-      "vCPU": 26,
+      "vCPU": 30,
       "RAM": 63,
-      "disk": 828,
-      "qty": 4,
-      "cost": 2.0
+      "disk": 876,
+      "cost": 2.0,
+      "qty": 43
     }
   ]
 }

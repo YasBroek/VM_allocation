@@ -20,7 +20,7 @@ def continuous_solution(vms, servers):
     prob = LpProblem("VM_Alocation_cont", LpMinimize)
 
     # Objective
-    prob += lpSum(server.cost * y[j, k] for j in range(server.qty) for k, server in enumerate(servers))
+    prob += lpSum(servers[k].cost * y[j, k] for k in range(len(servers)) for j in range(servers[k].qty))
 
     for i in range(len(vms)):
         prob += lpSum(x[i, j, k] for j in range(server.qty) for k, server in enumerate(servers)) == 1
@@ -31,7 +31,7 @@ def continuous_solution(vms, servers):
             prob += lpSum(vm.RAM * x[i, j, k] for i, vm in enumerate(vms)) <= server.RAM * y[j, k]
             prob += lpSum(vm.disk * x[i, j, k] for i, vm in enumerate(vms)) <= server.disk * y[j, k]
 
-    prob.solve()
+    prob.solve(PULP_CBC_CMD(msg=0))
 
     return value(prob.objective)
 
@@ -58,6 +58,6 @@ def integer_solution(vms, servers):
             prob += lpSum(vm.RAM * x[i, j, k] for i, vm in enumerate(vms)) <= server.RAM * y[j, k]
             prob += lpSum(vm.disk * x[i, j, k] for i, vm in enumerate(vms)) <= server.disk * y[j, k]
 
-    prob.solve()
+    prob.solve(PULP_CBC_CMD(msg=0))
 
     return value(prob.objective)

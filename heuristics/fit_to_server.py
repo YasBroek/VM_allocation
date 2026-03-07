@@ -13,6 +13,9 @@ def fit_to_server(vms, server_types):
     iter = 0
 
     while (len(vms_sorted)>=1 and iter < max_iter):
+        if not servers:
+            print("No feasible solution with FTS")
+            return None
         s = servers[0]
         attributions.append((vms_sorted[0].ID,s.ID))
         s.vCPU -= vms_sorted[0].vCPU
