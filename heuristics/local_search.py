@@ -40,7 +40,6 @@ def local_search(vms, server_types):
     while improved:
         improved = False
         active = [sid for sid, vlist in loads.items() if vlist]
-        # sort by number of VMs ascending — try to empty least loaded first
         active.sort(key=lambda sid: len(loads[sid]))
 
         for target in active:
@@ -58,11 +57,10 @@ def local_search(vms, server_types):
                         moved.append(vm_id)
                         break
 
-            if not loads[target]:  # server emptied
+            if not loads[target]: 
                 improved = True
                 break
             else:
-                # undo moves for this target
                 for vm_id in moved:
                     src = assignment[vm_id]
                     loads[src].remove(vm_id)

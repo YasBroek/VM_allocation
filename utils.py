@@ -10,7 +10,7 @@ def extend_and_sort(server_types):
             new_s = deepcopy(s)
             new_s.ID = f"{s.ID}_{q+1}"
             servers.append(new_s)
-    servers.sort(key=lambda s: (s.cost, (s.vCPU/max_cpu + s.RAM/max_ram + s.disk/max_disk)))
+    servers.sort(key=lambda s: (s.vCPU/max_cpu + s.RAM/max_ram + s.disk/max_disk))
 
     return servers
 

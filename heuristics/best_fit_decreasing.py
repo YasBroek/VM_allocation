@@ -15,7 +15,6 @@ def best_fit_decreasing(vms, server_types):
             if (server.vCPU >= vm.vCPU and
                 server.RAM  >= vm.RAM  and
                 server.disk >= vm.disk):
-                # slack = how much space is wasted after placing this VM
                 slack = (server.vCPU - vm.vCPU) + (server.RAM - vm.RAM) + (server.disk - vm.disk)
                 if slack < best_slack:
                     best_slack = slack

@@ -8,6 +8,7 @@ from heuristics.first_fit_decreasing import first_fit_decreasing
 from heuristics.fit_to_server import fit_to_server
 from heuristics.best_fit_decreasing import best_fit_decreasing
 from heuristics.local_search import local_search
+from heuristics.integer_solution import integer_solution
 
 def load_instance(path):
     with open(path) as f:
@@ -122,5 +123,26 @@ def run_all(instances_dir):
                 f" {fmt_t(t['ls'])}"
             )
 
+def run_variant2(instances_dir):
+    for category in ["small", "medium"]:
+        folder = os.path.join(instances_dir, category)
+        print(f"\n=== VARIANT 2 — {category.upper()} ===")
+        print(f"{'Instance':<20} {'Nominal':>8} {'Splitting':>10} {'Reduction':>10}")
 
-run_all("instances")
+        for fname in sorted(os.listdir(folder)):
+            if not fname.endswith(".json"):
+                continue
+            path = os.path.join(folder, fname)
+            vms, servers = load_instance(path)
+
+            nominal   = integer_solution(vms, deepcopy(servers))
+            splitting = continuous_solution(vms, deepcopy(servers))
+
+            if nominal and splitting:
+                reduction = (nominal - splitting) / nominal
+                print(f"{fname:<20} {nominal:>8.1f} {splitting:>10.1f} {reduction:>9.1%}")
+            else:
+                print(f"{fname:<20} {'N/A':>8} {'N/A':>10} {'N/A':>10}")
+
+
+run_variant2("instances")

@@ -1,273 +1,214 @@
 {
   "vms": [
     {
-      "ID": "vm1",
-      "profile": "compute",
-      "vCPU": 8,
-      "RAM": 9,
-      "disk": 51,
-      "group": "C"
+      "ID": "vm_web_01",
+      "profile": "Standard",
+      "vCPU": 1,
+      "RAM": 3,
+      "disk": 21,
+      "group": "web_front"
     },
     {
-      "ID": "vm2",
-      "profile": "compute",
+      "ID": "vm_web_02",
+      "profile": "Standard",
+      "vCPU": 2,
+      "RAM": 4,
+      "disk": 19,
+      "group": "web_front"
+    },
+    {
+      "ID": "vm_web_03",
+      "profile": "Standard",
+      "vCPU": 1,
+      "RAM": 4,
+      "disk": 19,
+      "group": "web_front"
+    },
+    {
+      "ID": "vm_web_04",
+      "profile": "Standard",
+      "vCPU": 1,
+      "RAM": 3,
+      "disk": 20,
+      "group": "web_front"
+    },
+    {
+      "ID": "vm_web_05",
+      "profile": "Standard",
+      "vCPU": 1,
+      "RAM": 3,
+      "disk": 19,
+      "group": "web_front"
+    },
+    {
+      "ID": "vm_web_06",
+      "profile": "Standard",
+      "vCPU": 1,
+      "RAM": 4,
+      "disk": 18,
+      "group": "web_front"
+    },
+    {
+      "ID": "vm_web_07",
+      "profile": "Standard",
+      "vCPU": 2,
+      "RAM": 4,
+      "disk": 19,
+      "group": "web_front"
+    },
+    {
+      "ID": "vm_web_08",
+      "profile": "Standard",
+      "vCPU": 1,
+      "RAM": 4,
+      "disk": 18,
+      "group": "web_front"
+    },
+    {
+      "ID": "vm_db_pri_01",
+      "profile": "High RAM",
       "vCPU": 16,
-      "RAM": 9,
-      "disk": 30,
-      "group": "C"
+      "RAM": 96,
+      "disk": 533,
+      "group": "db_cluster"
     },
     {
-      "ID": "vm3",
-      "profile": "cache",
-      "vCPU": 1,
-      "RAM": 14,
-      "disk": 7,
-      "group": "A"
-    },
-    {
-      "ID": "vm4",
-      "profile": "cache",
-      "vCPU": 1,
-      "RAM": 9,
-      "disk": 15,
-      "group": "A"
-    },
-    {
-      "ID": "vm5",
-      "profile": "db",
-      "vCPU": 2,
-      "RAM": 18,
-      "disk": 159,
-      "group": "C"
-    },
-    {
-      "ID": "vm6",
-      "profile": "web",
-      "vCPU": 1,
-      "RAM": 7,
-      "disk": 48,
-      "group": "B"
-    },
-    {
-      "ID": "vm7",
-      "profile": "compute",
-      "vCPU": 4,
-      "RAM": 7,
-      "disk": 63,
-      "group": "B"
-    },
-    {
-      "ID": "vm8",
-      "profile": "compute",
+      "ID": "vm_db_pri_02",
+      "profile": "High RAM",
       "vCPU": 15,
-      "RAM": 5,
-      "disk": 45,
-      "group": "B"
+      "RAM": 92,
+      "disk": 515,
+      "group": "db_cluster"
     },
     {
-      "ID": "vm9",
-      "profile": "cache",
-      "vCPU": 2,
-      "RAM": 6,
-      "disk": 13,
-      "group": "C"
+      "ID": "vm_db_sec_01",
+      "profile": "High RAM",
+      "vCPU": 17,
+      "RAM": 92,
+      "disk": 452,
+      "group": "db_cluster"
     },
     {
-      "ID": "vm10",
-      "profile": "db",
-      "vCPU": 6,
-      "RAM": 26,
-      "disk": 81,
-      "group": "B"
+      "ID": "vm_db_sec_02",
+      "profile": "High RAM",
+      "vCPU": 14,
+      "RAM": 101,
+      "disk": 548,
+      "group": "db_cluster"
     },
     {
-      "ID": "vm11",
-      "profile": "web",
-      "vCPU": 4,
-      "RAM": 5,
-      "disk": 43,
-      "group": "C"
-    },
-    {
-      "ID": "vm12",
-      "profile": "db",
-      "vCPU": 5,
-      "RAM": 26,
-      "disk": 182,
-      "group": "B"
-    },
-    {
-      "ID": "vm13",
-      "profile": "web",
-      "vCPU": 3,
-      "RAM": 8,
-      "disk": 43,
-      "group": "A"
-    },
-    {
-      "ID": "vm14",
-      "profile": "web",
-      "vCPU": 3,
-      "RAM": 2,
-      "disk": 47,
-      "group": "C"
-    },
-    {
-      "ID": "vm15",
-      "profile": "compute",
-      "vCPU": 11,
-      "RAM": 16,
-      "disk": 88,
-      "group": "A"
-    },
-    {
-      "ID": "vm16",
-      "profile": "db",
-      "vCPU": 7,
-      "RAM": 26,
-      "disk": 75,
-      "group": "A"
-    },
-    {
-      "ID": "vm17",
-      "profile": "cache",
-      "vCPU": 2,
-      "RAM": 16,
-      "disk": 12,
-      "group": "B"
-    },
-    {
-      "ID": "vm18",
-      "profile": "web",
-      "vCPU": 1,
-      "RAM": 8,
-      "disk": 15,
-      "group": "C"
-    },
-    {
-      "ID": "vm19",
-      "profile": "db",
-      "vCPU": 7,
-      "RAM": 16,
-      "disk": 185,
-      "group": "B"
-    },
-    {
-      "ID": "vm20",
-      "profile": "compute",
-      "vCPU": 13,
-      "RAM": 10,
-      "disk": 70,
-      "group": "B"
-    },
-    {
-      "ID": "vm21",
-      "profile": "web",
-      "vCPU": 4,
-      "RAM": 2,
-      "disk": 33,
-      "group": "A"
-    },
-    {
-      "ID": "vm22",
-      "profile": "web",
-      "vCPU": 1,
-      "RAM": 5,
-      "disk": 50,
-      "group": "C"
-    },
-    {
-      "ID": "vm23",
-      "profile": "web",
-      "vCPU": 3,
-      "RAM": 4,
-      "disk": 32,
-      "group": "C"
-    },
-    {
-      "ID": "vm24",
-      "profile": "compute",
-      "vCPU": 5,
-      "RAM": 8,
-      "disk": 40,
-      "group": "B"
-    },
-    {
-      "ID": "vm25",
-      "profile": "db",
-      "vCPU": 2,
+      "ID": "vm_ai_01",
+      "profile": "High CPU",
+      "vCPU": 31,
       "RAM": 29,
-      "disk": 72,
-      "group": "A"
+      "disk": 102,
+      "group": "ai_training"
     },
     {
-      "ID": "vm26",
-      "profile": "db",
+      "ID": "vm_ai_02",
+      "profile": "High CPU",
+      "vCPU": 28,
+      "RAM": 33,
+      "disk": 97,
+      "group": "ai_training"
+    },
+    {
+      "ID": "vm_big_data_01",
+      "profile": "Storage",
+      "vCPU": 8,
+      "RAM": 14,
+      "disk": 1980,
+      "group": "hadoop"
+    },
+    {
+      "ID": "vm_big_data_02",
+      "profile": "Storage",
+      "vCPU": 7,
+      "RAM": 15,
+      "disk": 2106,
+      "group": "hadoop"
+    },
+    {
+      "ID": "vm_erp_01",
+      "profile": "Balanced",
+      "vCPU": 8,
+      "RAM": 30,
+      "disk": 135,
+      "group": "erp_prod"
+    },
+    {
+      "ID": "vm_erp_02",
+      "profile": "Balanced",
+      "vCPU": 7,
+      "RAM": 35,
+      "disk": 162,
+      "group": "erp_prod"
+    },
+    {
+      "ID": "vm_cache_01",
+      "profile": "Standard",
+      "vCPU": 4,
+      "RAM": 15,
+      "disk": 46,
+      "group": "web_front"
+    },
+    {
+      "ID": "vm_cache_02",
+      "profile": "Standard",
       "vCPU": 3,
-      "RAM": 9,
-      "disk": 86,
-      "group": "A"
+      "RAM": 14,
+      "disk": 54,
+      "group": "web_front"
     },
     {
-      "ID": "vm27",
-      "profile": "cache",
+      "ID": "vm_cache_03",
+      "profile": "Standard",
+      "vCPU": 3,
+      "RAM": 15,
+      "disk": 50,
+      "group": "web_front"
+    },
+    {
+      "ID": "vm_monitor_01",
+      "profile": "Balanced",
       "vCPU": 2,
-      "RAM": 4,
-      "disk": 10,
-      "group": "C"
-    },
-    {
-      "ID": "vm28",
-      "profile": "web",
-      "vCPU": 2,
-      "RAM": 6,
-      "disk": 29,
-      "group": "C"
-    },
-    {
-      "ID": "vm29",
-      "profile": "web",
-      "vCPU": 2,
-      "RAM": 5,
-      "disk": 35,
-      "group": "B"
-    },
-    {
-      "ID": "vm30",
-      "profile": "cache",
-      "vCPU": 1,
       "RAM": 7,
-      "disk": 5,
-      "group": "C"
+      "disk": 92,
+      "group": "ops"
+    },
+    {
+      "ID": "vm_monitor_02",
+      "profile": "Balanced",
+      "vCPU": 2,
+      "RAM": 7,
+      "disk": 102,
+      "group": "ops"
     }
   ],
   "servers": [
     {
-      "ID": "small",
+      "ID": "S_Small",
       "s_type": "Small",
-      "vCPU": 8,
-      "RAM": 16,
-      "disk": 200,
-      "qty": 10,
-      "cost": 1.0
-    },
-    {
-      "ID": "medium",
-      "s_type": "Medium",
       "vCPU": 16,
-      "RAM": 32,
-      "disk": 500,
-      "qty": 6,
-      "cost": 1.5
+      "RAM": 64,
+      "disk": 1000,
+      "qty": 6
     },
     {
-      "ID": "large",
+      "ID": "S_Med",
+      "s_type": "Medium",
+      "vCPU": 32,
+      "RAM": 128,
+      "disk": 2000,
+      "qty": 4
+    },
+    {
+      "ID": "S_Large",
       "s_type": "Large",
-      "vCPU": 28,
-      "RAM": 63,
-      "disk": 840,
-      "qty": 4,
-      "cost": 2.0
+      "vCPU": 64,
+      "RAM": 256,
+      "disk": 5000,
+      "qty": 2
     }
   ]
 }

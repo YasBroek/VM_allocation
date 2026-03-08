@@ -17,4 +17,3 @@ class Server:
     RAM: int
     disk: int
     qty: int
-    cost: float
