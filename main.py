@@ -11,6 +11,9 @@ from heuristics.local_search import local_search
 from heuristics.integer_solution import integer_solution
 
 def load_instance(path):
+    """
+    Load JSON instance files
+    """
     with open(path) as f:
         data = json.load(f)
 
@@ -18,7 +21,7 @@ def load_instance(path):
     servers = [Server(**s) for s in data["servers"]]
     return vms, servers
 
-def safe_heuristic(fn, vms, servers):
+def heuristic(fn, vms, servers):
     from copy import deepcopy
     result = fn(vms, deepcopy(servers))
     if result is None:
@@ -47,7 +50,7 @@ def run_instance(path, run_exact=True):
                      ("fts", fit_to_server),
                      ("ls",  local_search)]:
         t0 = timer.perf_counter()
-        _, results[name] = safe_heuristic(fn, vms, servers)
+        _, results[name] = heuristic(fn, vms, servers)
         times[name] = timer.perf_counter() - t0
 
     # Exact
